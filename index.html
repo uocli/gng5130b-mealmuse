@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MealMuse</title>
+  <style>
+      body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          background: url('https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?q=80&w=3175&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+          background-size: cover;
+          color: #333;
+      }
+
+      .header {
+          background: rgba(255, 255, 255, 0.8);
+          color: #ff4500;
+          padding: 20px;
+          text-align: center;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .container {
+          padding: 50px 20px;
+          text-align: center;
+      }
+
+      .intro {
+          background: white;
+          padding: 40px;
+          border-radius: 15px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+          display: inline-block;
+          max-width: 600px;
+          margin: auto;
+          animation: fadeIn 2s ease-in-out;
+      }
+
+      .intro h1 {
+          margin-top: 0;
+          font-size: 2.5em;
+          color: #ff4500;
+      }
+
+      .intro p {
+          font-size: 1.2em;
+          line-height: 1.6;
+      }
+
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+              transform: translateY(20px);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0);
+          }
+      }
+
+      .button {
+          display: inline-block;
+          margin-top: 20px;
+          padding: 10px 20px;
+          font-size: 1em;
+          color: white;
+          background-color: #ff4500;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          text-decoration: none;
+          transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+          background-color: #ff6347;
+      }
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>Welcome to MealMuse</h1>
+</div>
+<div class="container">
+  <div class="intro">
+    <h1>Discover Delicious Recipes</h1>
+    <p>MealMuse is your ultimate recipe generator. Find new and exciting recipes to try every day!</p>
+    <a href="#" class="button">Get Started</a>
+  </div>
+</div>
+</body>
+</html>
